@@ -3,8 +3,8 @@
 // Execute `rustlings hint variables6` or use the `hint` watch subcommand for a
 // hint.
 
-// const应该明确类型
-const NUMBER: i32 = 3;
+// const 需要说明类型
+const NUMBER:i32 = 3;
 fn main() {
-    println!("Number {}", NUMBER);
+    print!("Number {}", NUMBER);
 }

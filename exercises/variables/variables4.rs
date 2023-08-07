@@ -5,7 +5,7 @@
 
 
 fn main() {
-    let mut x = 3; // 使用`mut`使这个~~不~~变量可变
+    let mut  x = 3;
     println!("Number {}", x);
     x = 5; // don't change this line
     println!("Number {}", x);

@@ -7,6 +7,6 @@
 
 
 fn main() {
-    let world = "world";
-    print!("Hello {}!", world);
+    let x = "rustlings";
+    println!("Hello {}!", x);
 }

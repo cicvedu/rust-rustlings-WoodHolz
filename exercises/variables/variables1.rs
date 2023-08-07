@@ -7,6 +7,6 @@
 
 
 fn main() {
-    let x = 5; // 使用`let`去给一个~~不~~变量绑定值
-    print!("x has the value {}", x);
+    let x = 5;
+    println!("x has the value {}", x);
 }
