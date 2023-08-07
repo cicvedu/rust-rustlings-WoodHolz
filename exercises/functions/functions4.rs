@@ -8,16 +8,16 @@
 // Execute `rustlings hint functions4` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
     let original_price = 51;
-    println!("Your sale price is {}", sale_price(original_price));
+    print!("Your sale price is {}", sale_price(original_price));
 }
 
-fn sale_price(price: i32) -> {
+// 如果函数需要返回, 必须说明返回值的类型
+fn sale_price(price: i32) -> i32 {
     if is_even(price) {
-        price - 10
+        price - 10 // 如果在这里添加`;`, 使该代码片段的"形式"从表达式变为语句, 就会报错
     } else {
         price - 3
     }
