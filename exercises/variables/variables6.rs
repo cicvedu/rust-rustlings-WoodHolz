@@ -1,10 +1,9 @@
 // variables6.rs
-//
-// Execute `rustlings hint variables6` or use the `hint` watch subcommand for a
-// hint.
+// Execute `rustlings hint variables6` or use the `hint` watch subcommand for a hint.
 
-// const 需要说明类型
-const NUMBER:i32 = 3;
+
+
+const NUMBER: i32 = 3;
 fn main() {
-    print!("Number {}", NUMBER);
+    println!("Number {}", NUMBER);
 }
